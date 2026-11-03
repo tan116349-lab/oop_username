@@ -115,9 +115,7 @@ public:
     ParkingLot();
     ParkingLot(int parkID, char size);
 
-    bool them(Vehicle v){
-    	
-	}
+    bool them(Vehicle v);
     bool xoa(int ma_xe);
     bool chua(int ma_xe) const;
     void hien_thi() const;
@@ -126,7 +124,7 @@ public:
 
 class SystemInterface {
 private:
-    bai_xe bai1, bai2, bai3;   
+    ParkingLot bai1, bai2, bai3;   
     bool co1, co2, co3;
 
 public:
